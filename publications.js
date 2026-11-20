@@ -1,5 +1,37 @@
 window.PUBLICATIONS = [
   {
+    "title": "Quiebras bancarias en el Perú: causas, evolución y lecciones para la estabilidad financiera",
+    "authors": "César Ramírez y José Díaz",
+    "year": "2026",
+    "venue": "Revista Moneda 206 · Banco Central de Reserva del Perú",
+    "url": "https://www.bcrp.gob.pe/docs/Publicaciones/Revista-Moneda/moneda-206/moneda-206-16.pdf",
+    "abstract": "This article examines banking failures in Peru and identifies poor risk management, liquidity problems, macroeconomic crises and regulatory weaknesses as key contributing factors, particularly during the 1980s and 1990s. It traces the evolution of the State’s role and the strengthening of the institutional framework, including the roles of the SBS, the Central Reserve Bank of Peru and the Deposit Insurance Fund. The article also describes the current bank resolution framework, which encompasses supervisory monitoring, intervention, dissolution and liquidation. It argues that institutional reforms have shifted the approach from reactive crisis management toward more preventive and orderly resolution, helping limit the impact of more recent failures and strengthen financial stability.",
+    "tags": [
+      "Banking",
+      "Financial Crises",
+      "Financial Stability"
+    ],
+    "image": "assets/images/11-bank-failures.png",
+    "date": "2026-06-01",
+    "dateLabel": "June 2026"
+  },
+  {
+    "title": "Evolución y transformación institucional del sistema financiero peruano: determinantes regulatorios y financieros del cambio de licencia y de la consolidación",
+    "authors": "Araujo, Cisneros, García y José Díaz",
+    "year": "2026",
+    "venue": "Revista Moneda 206 · Banco Central de Reserva del Perú",
+    "url": "https://www.bcrp.gob.pe/docs/Publicaciones/Revista-Moneda/moneda-206/moneda-206-10.pdf",
+    "abstract": "This paper examines the institutional evolution of Peru’s financial system through the growth trajectories of its financial institutions. It argues that changes in operating licenses—such as the transition from EDPYMEs to deposit-taking institutions and from finance companies to banks—are generally the result of gradual institutional development rather than discretionary decisions. The analysis considers the roles of operating scale, funding diversification, loan portfolio quality and risk-management capacity, within a regulatory framework that provides different paths for institutional development. Access to deposits and broader funding markets emerges as an important factor in these transitions, although institutions do not all follow the same path. Overall, the study highlights how regulation, business strategy and financial fundamentals interact in the consolidation and strengthening of the Peruvian financial system.",
+    "tags": [
+      "Financial System",
+      "Regulation",
+      "Bank Licensing"
+    ],
+    "image": "assets/images/12-institutional-transformation.png",
+    "date": "2026-06-01",
+    "dateLabel": "June 2026"
+  },
+  {
     "title": "El riesgo operacional en el sistema financiero peruano: requerimientos regulatorios y desafíos",
     "authors": "Leonardo César, Eduardo Díaz and David Ramírez",
     "year": "2026",
@@ -7,10 +39,44 @@ window.PUBLICATIONS = [
     "url": "https://www.bcrp.gob.pe/docs/Publicaciones/Revista-Moneda/moneda-205/moneda-205-08.pdf",
     "abstract": "This article examines how operational risk is addressed within Peru’s prudential regulatory framework. It reviews the methods used to calculate regulatory capital requirements for operational risk, considers how financial institutions have adopted these approaches and assesses their implications for institutional solvency. The article also discusses limitations in the methodologies currently in use and draws on international experience to examine possible ways of addressing them. Its analysis highlights the importance of aligning operational-risk capital requirements with the risks faced by financial institutions and of continually improving the regulatory framework.",
     "tags": [
-      "Riesgo financiero",
-      "Regulación"
+      "Operational Risk",
+      "Regulation"
     ],
-    "image": "assets/images/01-operational-risk.png"
+    "image": "assets/images/01-operational-risk.png",
+    "date": "2026-03-01",
+    "dateLabel": "March 2026"
+  },
+  {
+    "title": "Sistema COOPAC peruano: evolución, avances regulatorios y evaluación financiera",
+    "authors": "Araujo y José Díaz",
+    "year": "2025",
+    "venue": "Revista Moneda 203 · Banco Central de Reserva del Perú",
+    "url": "https://www.bcrp.gob.pe/docs/Publicaciones/Revista-Moneda/moneda-203/moneda-203-04.pdf",
+    "abstract": "This article examines the development of Peru’s COOPAC system and its role in expanding financial inclusion, particularly in rural areas. It describes the cooperatives’ legal structure and the regulatory framework introduced under SBS supervision in 2019. The analysis reviews financial indicators, the implementation of the Cooperative Deposit Insurance Fund and the completion of the sector’s regularization process. It also identifies remaining vulnerabilities among smaller institutions and discusses measures to strengthen corporate governance and prevent money laundering. The article emphasizes the importance of monitoring the COOPAC system because of its potential implications for financial stability.",
+    "tags": [
+      "Credit Cooperatives",
+      "Regulation",
+      "Financial Stability"
+    ],
+    "image": "assets/images/03-coopac-system.png",
+    "date": "2025-09-01",
+    "dateLabel": "September 2025"
+  },
+  {
+    "title": "Evolución de la solvencia del sistema financiero: flexibilización regulatoria e implementación de Basilea III",
+    "authors": "José Díaz y Morán",
+    "year": "2025",
+    "venue": "Revista Moneda 202 · Banco Central de Reserva del Perú",
+    "url": "https://www.bcrp.gob.pe/docs/Publicaciones/Revista-Moneda/moneda-202/moneda-202-06.pdf",
+    "abstract": "This article analyzes the solvency of Peru’s financial system amid adverse conditions, including the COVID-19 pandemic and the 2023 recession. It reviews temporary regulatory relief measures, the capital strengthening program and the roadmap for implementing Basel III standards, including requirements for total capital, Tier 1 and Common Equity Tier 1. Despite economic shocks, most institutions improved their solvency through capitalization, capital contributions and subordinated debt issuance, although some smaller institutions experienced deterioration and were intervened. The article also discusses additional capital requirements for specific and systemic risks, highlighting the role of the regulatory framework in strengthening the resilience of the financial system.",
+    "tags": [
+      "Solvency",
+      "Basel III",
+      "Regulation"
+    ],
+    "image": "assets/images/04-basel-solvency.png",
+    "date": "2025-06-01",
+    "dateLabel": "June 2025"
   },
   {
     "title": "Financial Stimulus and Microfinance Institutions in Emerging Markets",
@@ -20,39 +86,13 @@ window.PUBLICATIONS = [
     "url": "https://cburga.github.io/Research/Covid19_Peru.pdf",
     "abstract": "This study examines how microfinance institutions (MFIs) affect the allocation and aggregate impact of financial stimulus during recessions. It combines a theoretical model with evidence from Peru’s Reactiva Perú program during the COVID-19 crisis. The findings suggest that private lenders may depart from the social optimum by prioritizing existing clients, particularly in highly competitive markets. In the program, guarantees significantly reduced loan delinquency, especially among microenterprises and businesses in high-contact sectors with greater liquidity needs. MFIs directed a larger share of resources to these vulnerable segments, while traditional banks favored less-risky firms. Model calibration indicates that the program reduced defaulted debt by 30% compared with a scenario in which only traditional banks participated.",
     "tags": [
-      "Microfinanzas",
+      "Microfinance",
       "COVID-19",
-      "Crédito"
+      "Credit"
     ],
-    "image": "assets/images/02-reactiva-microfinance.png"
-  },
-  {
-    "title": "Sistema COOPAC peruano: evolución, avances regulatorios y evaluación financiera",
-    "authors": "Araujo y José Díaz",
-    "year": "—",
-    "venue": "Revista Moneda 203 · Banco Central de Reserva del Perú",
-    "url": "https://www.bcrp.gob.pe/docs/Publicaciones/Revista-Moneda/moneda-203/moneda-203-04.pdf",
-    "abstract": "This article examines the development of Peru’s COOPAC system and its role in expanding financial inclusion, particularly in rural areas. It describes the cooperatives’ legal structure and the regulatory framework introduced under SBS supervision in 2019. The analysis reviews financial indicators, the implementation of the Cooperative Deposit Insurance Fund and the completion of the sector’s regularization process. It also identifies remaining vulnerabilities among smaller institutions and discusses measures to strengthen corporate governance and prevent money laundering. The article emphasizes the importance of monitoring the COOPAC system because of its potential implications for financial stability.",
-    "tags": [
-      "COOPAC",
-      "Regulación",
-      "Estabilidad financiera"
-    ],
-    "image": "assets/images/03-coopac-system.png"
-  },
-  {
-    "title": "Evolución de la solvencia del sistema financiero: flexibilización regulatoria e implementación de Basilea III",
-    "authors": "José Díaz y Morán",
-    "year": "—",
-    "venue": "Revista Moneda 202 · Banco Central de Reserva del Perú",
-    "url": "https://www.bcrp.gob.pe/docs/Publicaciones/Revista-Moneda/moneda-202/moneda-202-06.pdf",
-    "abstract": "This article analyzes the solvency of Peru’s financial system amid adverse conditions, including the COVID-19 pandemic and the 2023 recession. It reviews temporary regulatory relief measures, the capital strengthening program and the roadmap for implementing Basel III standards, including requirements for total capital, Tier 1 and Common Equity Tier 1. Despite economic shocks, most institutions improved their solvency through capitalization, capital contributions and subordinated debt issuance, although some smaller institutions experienced deterioration and were intervened. The article also discusses additional capital requirements for specific and systemic risks, highlighting the role of the regulatory framework in strengthening the resilience of the financial system.",
-    "tags": [
-      "Solvencia",
-      "Basilea III",
-      "Regulación"
-    ],
-    "image": "assets/images/04-basel-solvency.png"
+    "image": "assets/images/02-reactiva-microfinance.png",
+    "date": "2023-01-01",
+    "dateLabel": "Research paper"
   },
   {
     "title": "Effect of caps on interest rates in Peru",
@@ -62,11 +102,13 @@ window.PUBLICATIONS = [
     "url": "https://bccprogramme.org/wp-content/uploads/2023/03/HEIDWP02-Cuba-Diaz.pdf",
     "abstract": "This paper examines the initial effects of interest-rate caps in Peru’s financial system and develops a methodology to estimate the potential exclusion of borrowers. It estimates that approximately 243,000 people were excluded from the financial system, with the strongest effects among individuals under 25, people living outside Lima and lower-income borrowers. For loans to small and micro enterprises, exclusion was more pronounced among individuals, businesses in the commerce sector and firms located in the capital. Excluded borrowers tended to face higher interest rates and were often clients of non-bank financial institutions. The study concludes that, although interest-rate caps aim to protect consumers, they may restrict formal credit access for vulnerable groups.",
     "tags": [
-      "Tasas de interés",
-      "Inclusión financiera",
-      "Regulación"
+      "Interest Rates",
+      "Financial Inclusion",
+      "Regulation"
     ],
-    "image": "assets/images/05-interest-rate-caps.png"
+    "image": "assets/images/05-interest-rate-caps.png",
+    "date": "2023-01-01",
+    "dateLabel": "2023"
   },
   {
     "title": "Loan Guarantees and Bank Incentives: Evidence from Covid-19 Relief Funds in Peru",
@@ -77,10 +119,12 @@ window.PUBLICATIONS = [
     "abstract": "This paper studies the effect of Peru’s Reactiva Perú program on business loan delinquency during the COVID-19 pandemic. It finds that higher loan guarantees significantly reduced the probability of default, particularly among medium-sized firms. A 10% increase in credit is associated with a 1.4-percentage-point decline in average delinquency. The paper also discusses why smaller firms, despite being more vulnerable, initially received less credit because of operational constraints and risk criteria. Subsequent adjustments, including segmented auctions, helped improve credit allocation and strengthen the program’s countercyclical impact. The findings underscore the importance of targeting guarantee schemes toward sectors most exposed to economic shocks.",
     "tags": [
       "Reactiva Perú",
-      "Garantías",
-      "Riesgo de crédito"
+      "Loan Guarantees",
+      "Credit Risk"
     ],
-    "image": "assets/images/06-loan-guarantees.png"
+    "image": "assets/images/06-loan-guarantees.png",
+    "date": "2023-01-01",
+    "dateLabel": "2023"
   },
   {
     "title": "Tasas de interés de créditos del sistema financiero y los efectos negativos del establecimiento de topes máximos",
@@ -90,11 +134,13 @@ window.PUBLICATIONS = [
     "url": "https://www.bcrp.gob.pe/docs/Publicaciones/Revista-Moneda/moneda-187/moneda-187-02.pdf",
     "abstract": "This article examines the adverse effects of imposing maximum interest rates on Peru’s financial system, particularly their implications for financial inclusion and credit supply. It explains that lending rates reflect funding costs, operating expenses, loan-loss provisions and profit margins, which vary across borrower segments according to risk. Interest-rate caps may exclude customers with limited credit histories and undermine the sustainability of institutions specializing in microfinance and consumer lending. Rather than relying on caps, the article discusses the role of competition in reducing borrowing costs sustainably. It also highlights financial education and better credit information as ways to expand access to formal credit without compromising financial stability.",
     "tags": [
-      "Tasas de interés",
-      "Crédito",
-      "Inclusión financiera"
+      "Interest Rates",
+      "Credit",
+      "Financial Inclusion"
     ],
-    "image": "assets/images/07-credit-rate-caps.png"
+    "image": "assets/images/07-credit-rate-caps.png",
+    "date": "2021-09-01",
+    "dateLabel": ""
   },
   {
     "title": "Avances en la implementación de Open Banking",
@@ -106,9 +152,11 @@ window.PUBLICATIONS = [
     "tags": [
       "Open Banking",
       "Fintech",
-      "Innovación financiera"
+      "Financial Innovation"
     ],
-    "image": "assets/images/08-open-banking.png"
+    "image": "assets/images/08-open-banking.png",
+    "date": "2020-06-01",
+    "dateLabel": ""
   },
   {
     "title": "Innovaciones financieras en el contexto del Covid-19",
@@ -120,9 +168,11 @@ window.PUBLICATIONS = [
     "tags": [
       "Fintech",
       "COVID-19",
-      "Pagos digitales"
+      "Digital Payments"
     ],
-    "image": "assets/images/09-financial-innovation-covid.png"
+    "image": "assets/images/09-financial-innovation-covid.png",
+    "date": "2020-06-01",
+    "dateLabel": ""
   },
   {
     "title": "Libra, la moneda digital de Facebook: implicancias y reacciones",
@@ -132,38 +182,12 @@ window.PUBLICATIONS = [
     "url": "https://www.bcrp.gob.pe/docs/Publicaciones/Revista-Moneda/moneda-180/moneda-180-08.pdf",
     "abstract": "This article analyzes Facebook’s Libra project, a proposed digital currency designed as a stablecoin backed by a basket of low-risk financial assets and supported by a blockchain-based infrastructure. It describes the project’s governance, issuance and reserve arrangements, as well as its ambition to facilitate more efficient cross-border digital payments. The article then examines potential implications for monetary policy, financial stability and the sovereignty of national payment systems. It identifies risks including currency substitution, market concentration and challenges for regulation, supervision and the prevention of financial crime. Finally, it reviews the main responses from public authorities and international organizations and the regulatory proposals put forward to address these concerns.",
     "tags": [
-      "Monedas digitales",
+      "Digital Currencies",
       "Blockchain",
-      "Regulación"
+      "Regulation"
     ],
-    "image": "assets/images/10-libra-digital-currency.png"
-  },
-  {
-    "title": "Quiebras bancarias en el Perú: causas, evolución y lecciones para la estabilidad financiera",
-    "authors": "César Ramírez y José Díaz",
-    "year": "—",
-    "venue": "Revista Moneda 206 · Banco Central de Reserva del Perú",
-    "url": "https://www.bcrp.gob.pe/docs/Publicaciones/Revista-Moneda/moneda-206/moneda-206-16.pdf",
-    "abstract": "This article examines banking failures in Peru and identifies poor risk management, liquidity problems, macroeconomic crises and regulatory weaknesses as key contributing factors, particularly during the 1980s and 1990s. It traces the evolution of the State’s role and the strengthening of the institutional framework, including the roles of the SBS, the Central Reserve Bank of Peru and the Deposit Insurance Fund. The article also describes the current bank resolution framework, which encompasses supervisory monitoring, intervention, dissolution and liquidation. It argues that institutional reforms have shifted the approach from reactive crisis management toward more preventive and orderly resolution, helping limit the impact of more recent failures and strengthen financial stability.",
-    "tags": [
-      "Banca",
-      "Crisis financieras",
-      "Estabilidad financiera"
-    ],
-    "image": "assets/images/11-bank-failures.png"
-  },
-  {
-    "title": "Evolución y transformación institucional del sistema financiero peruano: determinantes regulatorios y financieros del cambio de licencia y de la consolidación",
-    "authors": "Araujo, Cisneros, García y José Díaz",
-    "year": "—",
-    "venue": "Revista Moneda 206 · Banco Central de Reserva del Perú",
-    "url": "https://www.bcrp.gob.pe/docs/Publicaciones/Revista-Moneda/moneda-206/moneda-206-10.pdf",
-    "abstract": "This paper examines the institutional evolution of Peru’s financial system through the growth trajectories of its financial institutions. It argues that changes in operating licenses—such as the transition from EDPYMEs to deposit-taking institutions and from finance companies to banks—are generally the result of gradual institutional development rather than discretionary decisions. The analysis considers the roles of operating scale, funding diversification, loan portfolio quality and risk-management capacity, within a regulatory framework that provides different paths for institutional development. Access to deposits and broader funding markets emerges as an important factor in these transitions, although institutions do not all follow the same path. Overall, the study highlights how regulation, business strategy and financial fundamentals interact in the consolidation and strengthening of the Peruvian financial system.",
-    "tags": [
-      "Sistema financiero",
-      "Regulación",
-      "Cambio de licencia"
-    ],
-    "image": "assets/images/12-institutional-transformation.png"
+    "image": "assets/images/10-libra-digital-currency.png",
+    "date": "2019-12-01",
+    "dateLabel": ""
   }
 ];

@@ -11,7 +11,7 @@ window.PUBLICATIONS = [
     "authors": "Burga, Céspedes, Cuba, Díaz and Sánchez",
     "year": "2026",
     "date": "2026-08-01",
-    "dateLabel": "Research paper",
+    "dateLabel": "August 2026",
     "venue": "Research paper",
     "theme": "credit",
     "tags": [
@@ -112,7 +112,7 @@ window.PUBLICATIONS = [
     "authors": "Cuba and Díaz",
     "year": "2023",
     "date": "2023-01-01",
-    "dateLabel": "2023",
+    "dateLabel": "January 2023",
     "venue": "Graduate Institute of International and Development Studies, HEIDWP02-2023",
     "theme": "credit",
     "tags": [
@@ -129,7 +129,7 @@ window.PUBLICATIONS = [
     "authors": "Burga, Cuba, Díaz and Sánchez",
     "year": "2023",
     "date": "2023-01-01",
-    "dateLabel": "2023",
+    "dateLabel": "January 2023",
     "venue": "Working Paper 001-2023, Central Reserve Bank of Peru",
     "theme": "credit",
     "tags": [

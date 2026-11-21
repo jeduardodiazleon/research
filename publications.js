@@ -7,8 +7,25 @@
 */
 window.PUBLICATIONS = [
   {
+    "title": "Financial Stimulus and Microfinance Institutions in Emerging Markets",
+    "authors": "Burga, Céspedes, Cuba, Díaz and Sánchez",
+    "year": "2026",
+    "date": "2023-01-01",
+    "dateLabel": "Research paper",
+    "venue": "Research paper",
+    "theme": "credit",
+    "tags": [
+      "Microfinance",
+      "COVID-19",
+      "Credit"
+    ],
+    "url": "https://cburga.github.io/Research/Covid19_Peru.pdf",
+    "image": "assets/images/02-reactiva-microfinance.png",
+    "abstract": "This study examines how microfinance institutions (MFIs) affect the allocation and aggregate impact of financial stimulus during recessions. It combines a theoretical model with evidence from Peru’s Reactiva Perú program during the COVID-19 crisis. The findings suggest that private lenders may depart from the social optimum by prioritizing existing clients, particularly in highly competitive markets. In the program, guarantees significantly reduced loan delinquency, especially among microenterprises and businesses in high-contact sectors with greater liquidity needs. MFIs directed a larger share of resources to these vulnerable segments, while traditional banks favored less-risky firms. Model calibration indicates that the program reduced defaulted debt by 30% compared with a scenario in which only traditional banks participated."
+  },
+  {
     "title": "Quiebras bancarias en el Perú: causas, evolución y lecciones para la estabilidad financiera",
-    "authors": "César Ramírez and José Díaz",
+    "authors": "Morán, Cesar, Diaz and Ramírez",
     "year": "2026",
     "date": "2026-06-01",
     "dateLabel": "June 2026",
@@ -25,7 +42,7 @@ window.PUBLICATIONS = [
   },
   {
     "title": "Evolución y transformación institucional del sistema financiero peruano: determinantes regulatorios y financieros del cambio de licencia y de la consolidación",
-    "authors": "Araujo, Cisneros, García and José Díaz",
+    "authors": "Araujo, Cisneros, García and Díaz",
     "year": "2026",
     "date": "2026-06-01",
     "dateLabel": "June 2026",
@@ -42,7 +59,7 @@ window.PUBLICATIONS = [
   },
   {
     "title": "El riesgo operacional en el sistema financiero peruano: requerimientos regulatorios y desafíos",
-    "authors": "Leonardo César, Eduardo Díaz and David Ramírez",
+    "authors": "César, Díaz and Ramírez",
     "year": "2026",
     "date": "2026-03-01",
     "dateLabel": "March 2026",
@@ -58,7 +75,7 @@ window.PUBLICATIONS = [
   },
   {
     "title": "Sistema COOPAC peruano: evolución, avances regulatorios y evaluación financiera",
-    "authors": "Araujo and José Díaz",
+    "authors": "Araujo and Díaz",
     "year": "2025",
     "date": "2025-09-01",
     "dateLabel": "September 2025",
@@ -75,7 +92,7 @@ window.PUBLICATIONS = [
   },
   {
     "title": "Evolución de la solvencia del sistema financiero: flexibilización regulatoria e implementación de Basilea III",
-    "authors": "José Díaz and Morán",
+    "authors": "Díaz and Morán",
     "year": "2025",
     "date": "2025-06-01",
     "dateLabel": "June 2025",
@@ -91,25 +108,8 @@ window.PUBLICATIONS = [
     "abstract": "This article analyzes the solvency of Peru’s financial system amid adverse conditions, including the COVID-19 pandemic and the 2023 recession. It reviews temporary regulatory relief measures, the capital strengthening program and the roadmap for implementing Basel III standards, including requirements for total capital, Tier 1 and Common Equity Tier 1. Despite economic shocks, most institutions improved their solvency through capitalization, capital contributions and subordinated debt issuance, although some smaller institutions experienced deterioration and were intervened. The article also discusses additional capital requirements for specific and systemic risks, highlighting the role of the regulatory framework in strengthening the resilience of the financial system."
   },
   {
-    "title": "Financial Stimulus and Microfinance Institutions in Emerging Markets",
-    "authors": "Céspedes, Cuba, Díaz and Sánchez",
-    "year": "n.d.",
-    "date": "2023-01-01",
-    "dateLabel": "Research paper",
-    "venue": "Research paper",
-    "theme": "credit",
-    "tags": [
-      "Microfinance",
-      "COVID-19",
-      "Credit"
-    ],
-    "url": "https://cburga.github.io/Research/Covid19_Peru.pdf",
-    "image": "assets/images/02-reactiva-microfinance.png",
-    "abstract": "This study examines how microfinance institutions (MFIs) affect the allocation and aggregate impact of financial stimulus during recessions. It combines a theoretical model with evidence from Peru’s Reactiva Perú program during the COVID-19 crisis. The findings suggest that private lenders may depart from the social optimum by prioritizing existing clients, particularly in highly competitive markets. In the program, guarantees significantly reduced loan delinquency, especially among microenterprises and businesses in high-contact sectors with greater liquidity needs. MFIs directed a larger share of resources to these vulnerable segments, while traditional banks favored less-risky firms. Model calibration indicates that the program reduced defaulted debt by 30% compared with a scenario in which only traditional banks participated."
-  },
-  {
     "title": "Effect of caps on interest rates in Peru",
-    "authors": "Cuba and José Díaz",
+    "authors": "Cuba and Díaz",
     "year": "2023",
     "date": "2023-01-01",
     "dateLabel": "2023",
@@ -143,7 +143,7 @@ window.PUBLICATIONS = [
   },
   {
     "title": "Tasas de interés de créditos del sistema financiero y los efectos negativos del establecimiento de topes máximos",
-    "authors": "Sánchez, Cisneros and José Díaz",
+    "authors": "Sánchez, Cisneros and Díaz",
     "year": "2021",
     "date": "2021-09-01",
     "dateLabel": "September 2021",
@@ -160,7 +160,7 @@ window.PUBLICATIONS = [
   },
   {
     "title": "Avances en la implementación de Open Banking",
-    "authors": "Muñoz and José Díaz",
+    "authors": "Muñoz and Díaz",
     "year": "2020",
     "date": "2020-06-01",
     "dateLabel": "June 2020",
@@ -177,7 +177,7 @@ window.PUBLICATIONS = [
   },
   {
     "title": "Innovaciones financieras en el contexto del Covid-19",
-    "authors": "Tambini and José Díaz",
+    "authors": "Tambini and Díaz",
     "year": "2020",
     "date": "2020-06-01",
     "dateLabel": "June 2020",
@@ -194,7 +194,7 @@ window.PUBLICATIONS = [
   },
   {
     "title": "Libra, la moneda digital de Facebook: implicancias y reacciones",
-    "authors": "Muñoz, Tambini and José Díaz",
+    "authors": "Muñoz, Tambini and Díaz",
     "year": "2019",
     "date": "2019-12-01",
     "dateLabel": "December 2019",

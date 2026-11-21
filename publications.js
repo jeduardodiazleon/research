@@ -10,7 +10,7 @@ window.PUBLICATIONS = [
     "title": "Financial Stimulus and Microfinance Institutions in Emerging Markets",
     "authors": "Burga, Céspedes, Cuba, Díaz and Sánchez",
     "year": "2026",
-    "date": "2023-01-01",
+    "date": "2026-08-01",
     "dateLabel": "Research paper",
     "venue": "Research paper",
     "theme": "credit",

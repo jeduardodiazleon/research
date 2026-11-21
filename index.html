@@ -3,45 +3,86 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Research and publications by José Eduardo Díaz León.">
-  <meta name="theme-color" content="#f4f2ed">
-  <title>Research | José Eduardo Díaz León</title>
+  <title>Research · José Eduardo Díaz León</title>
+  <meta name="description" content="Research and publications by José Eduardo Díaz León on banking, financial regulation, credit and financial stability in Peru.">
+  <meta name="theme-color" content="#f6f8fa">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@400;500;600&family=Spectral:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="topbar">
-    <a class="brand" href="#top"><span class="brand-mark">JD</span><span>JOSÉ EDUARDO DÍAZ LEÓN</span></a>
-    <nav><a class="active" href="#publications">Research</a><a href="https://scholar.google.com/citations?user=cKSuQLoAAAAJ&hl=en" target="_blank" rel="noreferrer">Google Scholar ↗</a></nav>
+  <a class="skip" href="#publications">Skip to publications</a>
+
+  <header class="masthead">
+    <div class="wrap">
+      <a class="brand" href="./" aria-label="José Eduardo Díaz León, research home">
+        <svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true">
+          <rect x="0.75" y="0.75" width="28.5" height="28.5" fill="#fbfcfd" stroke="#0b2545" stroke-width="1.5"/>
+          <path d="M6 6 V24 H24" fill="none" stroke="#0b2545" stroke-width="1.6"/>
+          <path d="M7 20 C11 19, 12 12, 16 13 S21 8, 24 7" fill="none" stroke="#c9952b" stroke-width="2"/>
+        </svg>
+        <span>José Eduardo Díaz León</span>
+      </a>
+      <nav aria-label="Main">
+        <a href="./" aria-current="page">Research</a>
+        <a href="https://jeduardodiazleon.github.io/visualization/">Visualizers</a>
+        <a href="https://scholar.google.com/citations?user=cKSuQLoAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a>
+      </nav>
+    </div>
   </header>
-  <main id="top">
-    <section class="intro">
-      <div class="intro-kicker">ECONOMICS · FINANCE · PUBLIC POLICY</div>
-      <div class="intro-grid">
-        <div><h1>Research &amp;<br>Publications<span>.</span></h1></div>
-        <div class="intro-text"><p class="name">José Eduardo Díaz León</p><p>Research on financial stability, banking, financial regulation and innovation, with an interest in data-driven approaches to economic and policy questions.</p><a class="scholar-link" href="https://scholar.google.com/citations?user=cKSuQLoAAAAJ&hl=en" target="_blank" rel="noreferrer">View Google Scholar profile <span>↗</span></a></div>
-      </div>
-    </section>
-    <section class="publication-section" id="publications">
-      <div class="section-head"><div><div class="section-kicker">SELECTED ACADEMIC WORK</div><h2>Publications</h2></div><div class="count" id="resultCount">12 publications</div></div>
-      <div class="toolbar">
-        <label class="search-wrap"><span class="search-icon">⌕</span><input id="searchInput" type="search" placeholder="Search publications, authors or topics…" aria-label="Search publications"></label>
-        <div class="filters" id="filters">
-          <button class="filter active" data-filter="All">All work</button>
-          <button class="filter" data-filter="Banking">Banking</button>
-          <button class="filter" data-filter="Financial Stability">Financial stability</button>
-          <button class="filter" data-filter="Regulation">Regulation</button>
-          <button class="filter" data-filter="Fintech">Fintech</button>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <div class="hero-text">
+          <h1>José Eduardo Díaz León</h1>
+          <div class="hero-side">
+          <p class="lede">Research on financial stability, banking, financial regulation and innovation, with an interest in data-driven approaches to economic and policy questions.</p>
+          <p class="hero-links">
+            <a href="https://scholar.google.com/citations?user=cKSuQLoAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar profile</a>
+            <a href="https://jeduardodiazleon.github.io/visualization/">Interactive data visualizers</a>
+          </p>
+          </div>
         </div>
       </div>
-      <div class="list-heading"><span>PUBLICATION</span><span>ABSTRACT</span><span>FIGURE / IMAGE</span></div>
-      <div id="publicationList" class="publication-list"></div>
-      <p class="empty-state" id="emptyState" hidden>No publications match your search.</p>
+    </section>
+
+    <section class="pubs" id="publications" aria-labelledby="pubs-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="pubs-title">Publications</h2>
+          <p id="count" aria-live="polite"></p>
+        </div>
+
+        <div class="toolbar">
+          <div class="themes" id="themes" role="group" aria-label="Filter by theme"></div>
+          <label class="search">
+            <span class="visually-hidden">Search publications</span>
+            <svg width="18" height="18" viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="6" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M13 13 L18 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            <input id="search" type="search" placeholder="Search titles, authors, topics" autocomplete="off">
+          </label>
+        </div>
+
+        <div id="list"></div>
+        <div class="empty" id="empty" hidden>
+          <p id="empty-text">No publications match this search.</p>
+          <button type="button" class="btn ghost" id="clear">Clear search and filters</button>
+        </div>
+      </div>
     </section>
   </main>
-  <footer><span>© <span id="year"></span> José Eduardo Díaz León</span><span>Academic portfolio</span></footer>
+
+  <footer class="colophon">
+    <div class="wrap">
+      <span>© <span id="year"></span> José Eduardo Díaz León</span>
+      <span>Figures belong to the respective publications. Hosted on GitHub Pages.</span>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
   <script src="publications.js"></script>
   <script src="script.js"></script>
 </body>
